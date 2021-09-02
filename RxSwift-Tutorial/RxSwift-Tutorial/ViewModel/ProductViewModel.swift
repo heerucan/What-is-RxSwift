@@ -11,9 +11,9 @@ import RxCocoa
 import RxSwift
 
 struct ProductViewModel {
-    var items = PublishSubject<[Product]>()
+    var productList = PublishSubject<[Product]>()
     
-    func fetchItems() {
+    func fetchProductList() {
         let products = [
             Product(imageName: "house", title: "House"),
             Product(imageName: "gear", title: "Setting"),
@@ -22,7 +22,7 @@ struct ProductViewModel {
             Product(imageName: "bell", title: "Activity")
         ]
         
-        items.onNext(products)
-        items.onCompleted()
+        productList.onNext(products)
+        productList.onCompleted()
     }
 }

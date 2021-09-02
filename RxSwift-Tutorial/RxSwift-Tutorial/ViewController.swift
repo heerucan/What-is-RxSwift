@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     
     func bindTableData() {
         // 1. bind items to table
-        viewModel.items.bind(
+        viewModel.productList.bind(
             to: tableView.rx.items(
                 cellIdentifier: "cell",
                 cellType: UITableViewCell.self)) { row, model, cell in
@@ -58,6 +58,6 @@ class ViewController: UIViewController {
         }.disposed(by: bag)
         
         // 3. fetch items
-        viewModel.fetchItems()
+        viewModel.fetchProductList()
     }
 }
