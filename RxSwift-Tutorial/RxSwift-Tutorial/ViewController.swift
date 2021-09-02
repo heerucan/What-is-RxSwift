@@ -39,5 +39,25 @@ class ViewController: UIViewController {
     func setupTableView() {
         tableView.backgroundColor = .white
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        bindTableData()
+    }
+    
+    func bindTableData() {
+        // 1. bind items to table
+        viewModel.items.bind(
+            to: tableView.rx.items(
+                cellIdentifier: "cell",
+                cellType: UITableViewCell.self)) { row, model, cell in
+            cell.textLabel?.text = model.title
+            cell.imageView?.image = UIImage(systemName: model.imageName)
+        }.disposed(by: bag)
+        
+        // 2. bind a model selected handler
+        tableView.rx.modelSelected(Product.self).bind { product in
+            print(product.title)
+        }.disposed(by: bag)
+        
+        // 3. fetch items
+        viewModel.fetchItems()
     }
 }

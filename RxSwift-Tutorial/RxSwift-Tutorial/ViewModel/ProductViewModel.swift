@@ -15,7 +15,7 @@ struct ProductViewModel {
     
     func fetchItems() {
         let products = [
-            Product(imageName: "home", title: "House"),
+            Product(imageName: "house", title: "House"),
             Product(imageName: "gear", title: "Setting"),
             Product(imageName: "person.circle", title: "Profile"),
             Product(imageName: "airplane", title: "Flights"),
