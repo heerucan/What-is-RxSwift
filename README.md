@@ -1,4 +1,14 @@
-# 🤮 What The... RxSwift 얕게 톺아보자
+# 🤮 What The... RxSwift 톺아보자
 
-### 1단계, [🐻](https://github.com/iamchiwon/RxSwift_In_4_Hours)곰튀김님의 RxSwift+MVVM 4시간에 끝내기 시즌2 강의를 일단 듣습니다. 
-#### ( 네, 듣고 오겠습니다... )
+
+#### 👷👷‍♀️👷 공부 정리는 벽돌 클릭... [🧱 ](https://elastic-failing-242.notion.site/fd0027e5ba5a43feb5faebcf4d0e09f1?v=08324b9d28f04128ae5cf453bf8ac9d5)
+
+
+
+|Project|Lecture|Source|
+|:-|:-|:-:|
+|BearFried + RxSwift|곰튀김 4시간 시즌2|[🐻](https://github.com/iamchiwon/RxSwift_In_4_Hours)|
+|RxSwift-Tutorial|iOS academy 유튜브|[🦠](https://www.youtube.com/watch?v=ES5RuLSv61g&feature=emb_imp_woyt)|
+
+<br>
+<br>
