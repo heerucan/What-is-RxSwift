@@ -30,6 +30,7 @@
 		5B2EF48A26E086DD00EE8B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B2EF49F26E08B4300EE8B1D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		5B2EF4A526E08B8700EE8B1D /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		5B2EF4AA26E0E1DD00EE8B1D /* RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwiftPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A270C5F85AB6BA0B61693D14 /* Pods-RxSwift-Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-Tutorial.release.xcconfig"; path = "Target Support Files/Pods-RxSwift-Tutorial/Pods-RxSwift-Tutorial.release.xcconfig"; sourceTree = "<group>"; };
 		EF9AF97BE953F8C40FE2057A /* Pods-RxSwift-Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-Tutorial.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift-Tutorial/Pods-RxSwift-Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +76,7 @@
 		5B2EF47B26E086D900EE8B1D /* RxSwift-Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				5B2EF4AA26E0E1DD00EE8B1D /* RxSwiftPlayground.playground */,
 				5B2EF4A226E08B4600EE8B1D /* Support */,
 				5B2EF4A326E08B5000EE8B1D /* Model */,
 				5B2EF4A426E08B5D00EE8B1D /* ViewModel */,
