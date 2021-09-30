@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5BB9B93B2705896600F5DDFE /* SubjectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9B93A2705896600F5DDFE /* SubjectVC.swift */; };
+		5BB9B93D2705C11800F5DDFE /* RelayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9B93C2705C11800F5DDFE /* RelayVC.swift */; };
 		5BCC625126FC808300820AE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC625026FC808300820AE7 /* AppDelegate.swift */; };
 		5BCC625326FC808300820AE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC625226FC808300820AE7 /* SceneDelegate.swift */; };
 		5BCC625526FC808300820AE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC625426FC808300820AE7 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		5BB9B93A2705896600F5DDFE /* SubjectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectVC.swift; sourceTree = "<group>"; };
+		5BB9B93C2705C11800F5DDFE /* RelayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelayVC.swift; sourceTree = "<group>"; };
 		5BCC624D26FC808300820AE7 /* Theory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Theory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCC625026FC808300820AE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BCC625226FC808300820AE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				5BCC625226FC808300820AE7 /* SceneDelegate.swift */,
 				5BCC625426FC808300820AE7 /* ViewController.swift */,
 				5BB9B93A2705896600F5DDFE /* SubjectVC.swift */,
+				5BB9B93C2705C11800F5DDFE /* RelayVC.swift */,
 				5BCC625626FC808300820AE7 /* Main.storyboard */,
 				5BCC625926FC808600820AE7 /* Assets.xcassets */,
 				5BCC625B26FC808600820AE7 /* LaunchScreen.storyboard */,
@@ -211,6 +214,7 @@
 				5BCC625526FC808300820AE7 /* ViewController.swift in Sources */,
 				5BCC625126FC808300820AE7 /* AppDelegate.swift in Sources */,
 				5BCC625326FC808300820AE7 /* SceneDelegate.swift in Sources */,
+				5BB9B93D2705C11800F5DDFE /* RelayVC.swift in Sources */,
 				5BB9B93B2705896600F5DDFE /* SubjectVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

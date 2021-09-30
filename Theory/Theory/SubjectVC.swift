@@ -132,6 +132,3 @@ class SubjectVC: UIViewController {
         subject.onCompleted()
     }
 }
-
-
-
