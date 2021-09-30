@@ -22,8 +22,8 @@ class SubjectVC: UIViewController {
         super.viewDidLoad()
 //        publishSubject()
 //        behaviorSubject()
-        replaySubject()
-
+//        replaySubject()
+        asyncSubject()
     }
     
     func publishSubject() {
@@ -114,6 +114,24 @@ class SubjectVC: UIViewController {
         
         subject.onNext("9 번째 Event")
     }
+    
+    func asyncSubject() {
+        print()
+        print("AsyncSubject --------------------------------------------------")
+        
+        let subject = AsyncSubject<String>()
+        
+        subject.subscribe(onNext: {
+            print(" >> ",$0)
+        }).disposed(by: disposeBag)
+        
+        subject.onNext("1 번째 Event")
+        subject.onNext("2 번째 Event")
+        subject.onNext("3 번째 Event")
+        
+        subject.onCompleted()
+    }
 }
+
 
 
