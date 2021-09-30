@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 
 class ViewController: UIViewController {
-    
+
     private var disposeBag = DisposeBag()
     var disposables: [Disposable] = []
 
