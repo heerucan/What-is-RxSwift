@@ -20,11 +20,13 @@ class SubjectVC: UIViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        subject()
+        //        publishSubject()
+        behaviorSubject()
+//        behaviorSubject()
+
     }
     
-    func subject() {
-        
+    func publishSubject() {
         print()
         print("PublishSubject --------------------------------------------------")
         
@@ -43,13 +45,46 @@ class SubjectVC: UIViewController {
         
         subject.onNext("세 번째 선물 Event")
         
-//        subject.onCompleted()
+        //        subject.onCompleted()
         subject.onError(MyError.error)
         
         let observer3 = subject.subscribe { print(" >> 3번째 구독자 : ", $0) }
         observer3.disposed(by: disposeBag)
     }
     
+    func behaviorSubject() {
+        print()
+        print("BehaviorSubject --------------------------------------------------")
+        
+        let subject = BehaviorSubject<String>(value: "초기값")
+        
+        subject.subscribe(onNext: {
+            print(" >> 0 번째 : ",$0)
+        }).disposed(by: disposeBag)
+        
+        subject.onNext("1 번째 Event")
+        subject.onNext("2 번째 Event")
+        subject.onNext("3 번째 Event")
+        subject.onNext("4 번째 Event")
+        
+        let observer1 = subject
+            .subscribe(onNext: {
+                print(" >> 1 번째 : ",$0)
+            }).disposed(by: disposeBag)
+        
+        subject.onNext("5 번째 Event")
+        subject.onNext("6 번째 Event")
+        subject.onNext("7 번째 Event")
+        
+        let observer2 = subject
+            .subscribe(onNext: {
+                print(" >> 2 번째 : ",$0)
+            }).disposed(by: disposeBag)
+        
+        subject.onNext("8 번째 Event")
+        
+//        subject.onCompleted()
+//        subject.onError(MyError.error)
+    }
 }
-
 
