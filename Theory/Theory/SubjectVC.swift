@@ -20,9 +20,9 @@ class SubjectVC: UIViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        //        publishSubject()
-        behaviorSubject()
+//        publishSubject()
 //        behaviorSubject()
+        replaySubject()
 
     }
     
@@ -86,5 +86,34 @@ class SubjectVC: UIViewController {
 //        subject.onCompleted()
 //        subject.onError(MyError.error)
     }
+    
+    func replaySubject() {
+        print()
+        print("ReplaySubject --------------------------------------------------")
+        
+        let subject = ReplaySubject<String>.create(bufferSize: 3)
+        
+        subject.onNext("1 번째 Event")
+        subject.onNext("2 번째 Event")
+        subject.onNext("3 번째 Event")
+        subject.onNext("4 번째 Event")
+        
+        subject.subscribe(onNext: {
+            print(" >> 1 번째 : ",$0)
+        }).disposed(by: disposeBag)
+        
+        subject.onNext("5 번째 Event")
+        subject.onNext("6 번째 Event")
+        subject.onNext("7 번째 Event")
+        subject.onNext("8 번째 Event")
+        
+        let observer2 = subject
+            .subscribe(onNext: {
+                print(" >> 2 번째 : ",$0)
+            }).disposed(by: disposeBag)
+        
+        subject.onNext("9 번째 Event")
+    }
 }
+
 
