@@ -81,7 +81,7 @@
         <!--메모 보기-->
         <scene sceneID="Jue-mP-3YP">
             <objects>
-                <viewController id="V1N-D2-07I" customClass="MemoDetailViewController" customModule="RxMemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailVC" id="V1N-D2-07I" customClass="MemoDetailViewController" customModule="RxMemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="DetailVC" id="uEU-tx-SBj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
