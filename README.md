@@ -17,6 +17,7 @@
 |BearFried + RxSwift|곰튀김 4시간 시즌2|[🐻](https://github.com/iamchiwon/RxSwift_In_4_Hours)|
 |RxSwift-Tutorial|iOS academy 유튜브|[🦠](https://www.youtube.com/watch?v=ES5RuLSv61g&feature=emb_imp_woyt)|
 |Theory| 그냥 연습파일 | [🐛](https://elastic-failing-242.notion.site/fd0027e5ba5a43feb5faebcf4d0e09f1?v=08324b9d28f04128ae5cf453bf8ac9d5) |
+|RxMemo| RxSwift, MVVM으로 메모앱 만들기 | [😵‍💫](https://www.youtube.com/watch?v=0nxB89qBpl4&list=PLziSvys01Oek7ANk4rzOYobnUU_FTu5ns&index=9) |
 
 <br>
 <br>
