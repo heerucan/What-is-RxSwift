@@ -27,6 +27,7 @@
 		5B3244C9270EAEA000CD52D6 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3244C8270EAEA000CD52D6 /* Scene.swift */; };
 		5B3244CB270EB13400CD52D6 /* SceneCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3244CA270EB13400CD52D6 /* SceneCoordinatorType.swift */; };
 		5B3244CD270EB19800CD52D6 /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3244CC270EB19800CD52D6 /* SceneCoordinator.swift */; };
+		5B3244CF270EC9EE00CD52D6 /* CommonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3244CE270EC9EE00CD52D6 /* CommonViewModel.swift */; };
 		B224101D15D303F54A1C47F4 /* Pods_RxMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E50678D0D5021CCBAC4246 /* Pods_RxMemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		5B3244C8270EAEA000CD52D6 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		5B3244CA270EB13400CD52D6 /* SceneCoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinatorType.swift; sourceTree = "<group>"; };
 		5B3244CC270EB19800CD52D6 /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
+		5B3244CE270EC9EE00CD52D6 /* CommonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				5B3244BE270EABAE00CD52D6 /* MemoListViewModel.swift */,
 				5B3244C0270EABCE00CD52D6 /* MemoDetailViewModel.swift */,
 				5B3244C2270EABEE00CD52D6 /* MemoComposeViewModel.swift */,
+				5B3244CE270EC9EE00CD52D6 /* CommonViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				5B3244CB270EB13400CD52D6 /* SceneCoordinatorType.swift in Sources */,
 				5B3244BF270EABAE00CD52D6 /* MemoListViewModel.swift in Sources */,
 				5B3244C1270EABCE00CD52D6 /* MemoDetailViewModel.swift in Sources */,
+				5B3244CF270EC9EE00CD52D6 /* CommonViewModel.swift in Sources */,
 				5B3244C7270EAE5B00CD52D6 /* TransitionModel.swift in Sources */,
 				5B3244B9270EAA7D00CD52D6 /* MemoListViewController.swift in Sources */,
 				5B3244BD270EAABD00CD52D6 /* MemoComposeViewController.swift in Sources */,
