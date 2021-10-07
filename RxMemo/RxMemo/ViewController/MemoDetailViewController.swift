@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MemoDetailViewController: UIViewController {
+class MemoDetailViewController: UIViewController, ViewModelBindableType {
 
     var viewModel: MemoDetailViewModel!
 
@@ -17,6 +17,6 @@ class MemoDetailViewController: UIViewController {
     }
     
     func bindViewModel() {
-        <#code#>
+        
     }
 }
