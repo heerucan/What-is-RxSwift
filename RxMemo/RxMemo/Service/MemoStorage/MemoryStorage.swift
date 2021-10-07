@@ -19,26 +19,28 @@ class MemoryStorage: MemoStorageType {
         Memo(content: "Hello", insertDate: Date().addingTimeInterval(-10)),
         Memo(content: "Ruhee", insertDate: Date().addingTimeInterval(-20))
     ]
+    
+    private lazy var sectionModel = MemoSectionModel(model: 0, items: list)
 
     // 근데 그냥 observable 형태면 불가능해서 subject(multicast 형식)로 만들어야 한다.
     // 그리고 초기에 더미데이터를 표시해야 하니까 BehaviorSubject로 만들어 준다.
-    private lazy var store = BehaviorSubject<[Memo]>(value: list)
+    private lazy var store = BehaviorSubject<[MemoSectionModel]>(value: [sectionModel])
         
     @discardableResult
     func createMemo(content: String) -> Observable<Memo> {
         // 새로운 메모를 생성하고 배열에 추가
         let memo = Memo(content: content)
-        list.insert(memo, at: 0)
+        sectionModel.items.insert(memo, at: 0)
         
         // subject에서 새로운 next event 방출
-        store.onNext(list)
+        store.onNext([sectionModel])
         
         // 새로운 메모를 방출하는 옵저버블 리턴
         return Observable.just(memo)
     }
     
     @discardableResult
-    func memoList() -> Observable<[Memo]> {
+    func memoList() -> Observable<[MemoSectionModel]> {
         return store
     }
     
@@ -48,12 +50,12 @@ class MemoryStorage: MemoStorageType {
         let updated = Memo(original: memo, updatedContent: content)
         
         // 배열에 저장된 원본 인스턴스를 새로운 인스턴스로 교체
-        if let index = list.firstIndex(where: { $0 == memo }) {
-            list.remove(at: index)
-            list.insert(updated, at: index)
+        if let index = sectionModel.items.firstIndex(where: { $0 == memo }) {
+            sectionModel.items.remove(at: index)
+            sectionModel.items.insert(updated, at: index)
         }
         
-        store.onNext(list)
+        store.onNext([sectionModel])
         
         return Observable.just(updated)
     }
@@ -61,11 +63,11 @@ class MemoryStorage: MemoStorageType {
     @discardableResult
     func delete(memo: Memo) -> Observable<Memo> {
         // 여기에서는 리스트 배열에서 메모를 삭제하고 subject에서 새로운 next event 방출
-        if let index = list.firstIndex(where: { $0 == memo }) {
-            list.remove(at: index)
+        if let index = sectionModel.items.firstIndex(where: { $0 == memo }) {
+            sectionModel.items.remove(at: index)
         }
         
-        store.onNext(list)
+        store.onNext([sectionModel])
         
         // 삭제된 메모 방출하는 옵저버블
         return Observable.just(memo)
