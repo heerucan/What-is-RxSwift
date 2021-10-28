@@ -9,6 +9,9 @@
 |2주차|Subject|[🌼](https://huree-can-do-it.notion.site/2-Subject-eb3b11b0c8d34d44b72115a70925a2b1)|
 |3주차|Relay|[🌼](https://huree-can-do-it.notion.site/3-Relay-e4e37f2411d14220813057b1e53ece45)|
 |4주차|Filtering Operator|[🌼](https://huree-can-do-it.notion.site/4-Filtering-Operators-72c1c92b3d4042f9b6a4c83cf7ae67ce)|
+|5주차|Transforming Operator|[🌼](https://huree-can-do-it.notion.site/5-Transforming-Operators-e163e807d1594d31a1cd55f760279790)|
+
+
 
 <br>
 
