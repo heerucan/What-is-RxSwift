@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B8CAD4627180EF10016FEAD /* FilteringOperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CAD4527180EF10016FEAD /* FilteringOperatorVC.swift */; };
+		5B8EB23F272A6EDF00D64C46 /* TransformingOperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8EB23E272A6EDF00D64C46 /* TransformingOperatorVC.swift */; };
 		5BB9B93B2705896600F5DDFE /* SubjectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9B93A2705896600F5DDFE /* SubjectVC.swift */; };
 		5BB9B93D2705C11800F5DDFE /* RelayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9B93C2705C11800F5DDFE /* RelayVC.swift */; };
 		5BCC625126FC808300820AE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC625026FC808300820AE7 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		5B8CAD4527180EF10016FEAD /* FilteringOperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteringOperatorVC.swift; sourceTree = "<group>"; };
+		5B8EB23E272A6EDF00D64C46 /* TransformingOperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingOperatorVC.swift; sourceTree = "<group>"; };
 		5BB9B93A2705896600F5DDFE /* SubjectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectVC.swift; sourceTree = "<group>"; };
 		5BB9B93C2705C11800F5DDFE /* RelayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelayVC.swift; sourceTree = "<group>"; };
 		5BCC624D26FC808300820AE7 /* Theory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Theory.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +86,7 @@
 				5BB9B93A2705896600F5DDFE /* SubjectVC.swift */,
 				5BB9B93C2705C11800F5DDFE /* RelayVC.swift */,
 				5B8CAD4527180EF10016FEAD /* FilteringOperatorVC.swift */,
+				5B8EB23E272A6EDF00D64C46 /* TransformingOperatorVC.swift */,
 				5BCC625626FC808300820AE7 /* Main.storyboard */,
 				5BCC625926FC808600820AE7 /* Assets.xcassets */,
 				5BCC625B26FC808600820AE7 /* LaunchScreen.storyboard */,
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BCC625526FC808300820AE7 /* ViewController.swift in Sources */,
+				5B8EB23F272A6EDF00D64C46 /* TransformingOperatorVC.swift in Sources */,
 				5BCC625126FC808300820AE7 /* AppDelegate.swift in Sources */,
 				5BCC625326FC808300820AE7 /* SceneDelegate.swift in Sources */,
 				5BB9B93D2705C11800F5DDFE /* RelayVC.swift in Sources */,
