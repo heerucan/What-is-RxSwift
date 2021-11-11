@@ -11,6 +11,7 @@
 |4주차|Filtering Operator|[🌼](https://huree-can-do-it.notion.site/4-Filtering-Operators-72c1c92b3d4042f9b6a4c83cf7ae67ce)|
 |5주차|Transforming Operator|[🌼](https://huree-can-do-it.notion.site/5-Transforming-Operators-e163e807d1594d31a1cd55f760279790)|
 |5주차|Combining Operator|[🌼](https://huree-can-do-it.notion.site/6-Combining-Operators-f54db05567b04d24a8aaa6a654ffa6dc)|
+|6주차|Time Based Operators|[🌼](https://huree-can-do-it.notion.site/7-Time-Based-Operators-3ef81542597d45c69431844710fd9f02)|
 
 
 
