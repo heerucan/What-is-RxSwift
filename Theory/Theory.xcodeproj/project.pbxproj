@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B0FA4DC273C474A00D7E05B /* TimeBasedOperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0FA4DB273C474A00D7E05B /* TimeBasedOperatorVC.swift */; };
 		5B8CAD4627180EF10016FEAD /* FilteringOperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CAD4527180EF10016FEAD /* FilteringOperatorVC.swift */; };
 		5B8EB23F272A6EDF00D64C46 /* TransformingOperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8EB23E272A6EDF00D64C46 /* TransformingOperatorVC.swift */; };
 		5BAE4F7127338E4600E2F69A /* CombiningOperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE4F7027338E4600E2F69A /* CombiningOperatorVC.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B0FA4DB273C474A00D7E05B /* TimeBasedOperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBasedOperatorVC.swift; sourceTree = "<group>"; };
 		5B8CAD4527180EF10016FEAD /* FilteringOperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteringOperatorVC.swift; sourceTree = "<group>"; };
 		5B8EB23E272A6EDF00D64C46 /* TransformingOperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingOperatorVC.swift; sourceTree = "<group>"; };
 		5BAE4F7027338E4600E2F69A /* CombiningOperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombiningOperatorVC.swift; sourceTree = "<group>"; };
@@ -61,6 +63,17 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5B0FA4DA273C472400D7E05B /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC625626FC808300820AE7 /* Main.storyboard */,
+				5BCC625B26FC808600820AE7 /* LaunchScreen.storyboard */,
+				5BCC625026FC808300820AE7 /* AppDelegate.swift */,
+				5BCC625226FC808300820AE7 /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		5BCC624426FC808300820AE7 = {
 			isa = PBXGroup;
 			children = (
@@ -82,17 +95,15 @@
 		5BCC624F26FC808300820AE7 /* Theory */ = {
 			isa = PBXGroup;
 			children = (
-				5BCC625026FC808300820AE7 /* AppDelegate.swift */,
-				5BCC625226FC808300820AE7 /* SceneDelegate.swift */,
+				5B0FA4DA273C472400D7E05B /* Support */,
 				5BCC625426FC808300820AE7 /* ViewController.swift */,
 				5BB9B93A2705896600F5DDFE /* SubjectVC.swift */,
 				5BB9B93C2705C11800F5DDFE /* RelayVC.swift */,
 				5B8CAD4527180EF10016FEAD /* FilteringOperatorVC.swift */,
 				5B8EB23E272A6EDF00D64C46 /* TransformingOperatorVC.swift */,
 				5BAE4F7027338E4600E2F69A /* CombiningOperatorVC.swift */,
-				5BCC625626FC808300820AE7 /* Main.storyboard */,
+				5B0FA4DB273C474A00D7E05B /* TimeBasedOperatorVC.swift */,
 				5BCC625926FC808600820AE7 /* Assets.xcassets */,
-				5BCC625B26FC808600820AE7 /* LaunchScreen.storyboard */,
 				5BCC625E26FC808600820AE7 /* Info.plist */,
 			);
 			path = Theory;
@@ -223,6 +234,7 @@
 				5BCC625526FC808300820AE7 /* ViewController.swift in Sources */,
 				5B8EB23F272A6EDF00D64C46 /* TransformingOperatorVC.swift in Sources */,
 				5BCC625126FC808300820AE7 /* AppDelegate.swift in Sources */,
+				5B0FA4DC273C474A00D7E05B /* TimeBasedOperatorVC.swift in Sources */,
 				5BCC625326FC808300820AE7 /* SceneDelegate.swift in Sources */,
 				5BB9B93D2705C11800F5DDFE /* RelayVC.swift in Sources */,
 				5BB9B93B2705896600F5DDFE /* SubjectVC.swift in Sources */,
