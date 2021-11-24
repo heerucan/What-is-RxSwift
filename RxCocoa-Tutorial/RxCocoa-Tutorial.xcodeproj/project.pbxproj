@@ -14,9 +14,10 @@
 		5B829E5727463C6300766144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B829E5527463C6300766144 /* Main.storyboard */; };
 		5B829E5927463C6900766144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B829E5827463C6900766144 /* Assets.xcassets */; };
 		5B829E5C27463C6900766144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B829E5A27463C6900766144 /* LaunchScreen.storyboard */; };
-		5BA6EF30274E5952005FA6AA /* CatchmeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA6EF2F274E5952005FA6AA /* CatchmeModel.swift */; };
+		5BA6EF30274E5952005FA6AA /* CatchMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA6EF2F274E5952005FA6AA /* CatchMe.swift */; };
 		5BA6EF37274E5D40005FA6AA /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA6EF36274E5D40005FA6AA /* MainTableViewCell.swift */; };
 		5BA6EF3A274E661C005FA6AA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA6EF39274E661C005FA6AA /* DetailViewController.swift */; };
+		5BA6EF3D274EB80E005FA6AA /* CatchMeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA6EF3C274EB80E005FA6AA /* CatchMeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +31,10 @@
 		5B829E5827463C6900766144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B829E5B27463C6900766144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B829E5D27463C6900766144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BA6EF2F274E5952005FA6AA /* CatchmeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchmeModel.swift; sourceTree = "<group>"; };
+		5BA6EF2F274E5952005FA6AA /* CatchMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchMe.swift; sourceTree = "<group>"; };
 		5BA6EF36274E5D40005FA6AA /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		5BA6EF39274E661C005FA6AA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5BA6EF3C274EB80E005FA6AA /* CatchMeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchMeViewModel.swift; sourceTree = "<group>"; };
 		69F95EDF80A1133D0072E264 /* Pods-RxCocoa-Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxCocoa-Tutorial.debug.xcconfig"; path = "Target Support Files/Pods-RxCocoa-Tutorial/Pods-RxCocoa-Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 		5B829E4E27463C6300766144 /* RxCocoa-Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				5BA6EF3B274EB7C7005FA6AA /* ViewModel */,
 				5BA6EF32274E5D0D005FA6AA /* Model */,
 				5BA6EF33274E5D17005FA6AA /* ViewController */,
 				5BA6EF35274E5D2E005FA6AA /* Cell */,
@@ -91,7 +94,7 @@
 		5BA6EF32274E5D0D005FA6AA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5BA6EF2F274E5952005FA6AA /* CatchmeModel.swift */,
+				5BA6EF2F274E5952005FA6AA /* CatchMe.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -129,6 +132,14 @@
 				5B829E5827463C6900766144 /* Assets.xcassets */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		5BA6EF3B274EB7C7005FA6AA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5BA6EF3C274EB80E005FA6AA /* CatchMeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		6042E58F6198A21218D20F92 /* Pods */ = {
@@ -266,8 +277,9 @@
 				5B829E5427463C6300766144 /* ViewController.swift in Sources */,
 				5B829E5027463C6300766144 /* AppDelegate.swift in Sources */,
 				5B829E5227463C6300766144 /* SceneDelegate.swift in Sources */,
+				5BA6EF3D274EB80E005FA6AA /* CatchMeViewModel.swift in Sources */,
 				5BA6EF3A274E661C005FA6AA /* DetailViewController.swift in Sources */,
-				5BA6EF30274E5952005FA6AA /* CatchmeModel.swift in Sources */,
+				5BA6EF30274E5952005FA6AA /* CatchMe.swift in Sources */,
 				5BA6EF37274E5D40005FA6AA /* MainTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

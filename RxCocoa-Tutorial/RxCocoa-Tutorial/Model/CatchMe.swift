@@ -1,5 +1,5 @@
 //
-//  CatchmeModel.swift
+//  CatchMe.swift
 //  RxCocoa-Tutorial
 //
 //  Created by Thisisme Hi on 2021/11/24.
@@ -15,7 +15,7 @@ enum Part: String {
     case Server = "Server Dev"
 }
 
-struct CatchmeModel {
+struct CatchMe {
     var name: String
     var part: Part
 }

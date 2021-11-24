@@ -68,46 +68,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMR-Fv-Ut2">
-                                <rect key="frame" x="52" y="120" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqK-F3-pMg">
+                                <rect key="frame" x="30" y="371" width="354" height="57"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="47"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqK-F3-pMg">
-                                <rect key="frame" x="52" y="214" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cjt-MF-9zb">
-                                <rect key="frame" x="40" y="762" width="334" height="50"/>
-                                <color key="backgroundColor" red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="BD9-61-nNd"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
-                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPE-ka-vAy">
+                                <rect key="frame" x="361" y="60" width="33" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="뒤로 가기"/>
-                                <connections>
-                                    <action selector="backButton:" destination="08D-L4-7rZ" eventType="touchUpInside" id="07O-X2-ZB0"/>
-                                </connections>
+                                <state key="normal" title="닫기"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMR-Fv-Ut2">
+                                <rect key="frame" x="30" y="194" width="354" height="57"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="47"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="U2z-Pm-8Wt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="U2z-Pm-8Wt" firstAttribute="trailing" secondItem="Cjt-MF-9zb" secondAttribute="trailing" constant="40" id="5BW-pw-6AQ"/>
-                            <constraint firstItem="Cjt-MF-9zb" firstAttribute="leading" secondItem="U2z-Pm-8Wt" secondAttribute="leading" constant="40" id="9iO-52-xE5"/>
-                            <constraint firstItem="iqK-F3-pMg" firstAttribute="leading" secondItem="U2z-Pm-8Wt" secondAttribute="leading" constant="52" id="BCp-si-tFB"/>
-                            <constraint firstItem="WMR-Fv-Ut2" firstAttribute="leading" secondItem="U2z-Pm-8Wt" secondAttribute="leading" constant="52" id="Cr9-bf-HgZ"/>
-                            <constraint firstItem="WMR-Fv-Ut2" firstAttribute="top" secondItem="U2z-Pm-8Wt" secondAttribute="top" constant="76" id="Luy-YN-rRK"/>
-                            <constraint firstItem="U2z-Pm-8Wt" firstAttribute="bottom" secondItem="Cjt-MF-9zb" secondAttribute="bottom" constant="50" id="MbF-hx-KtY"/>
-                            <constraint firstItem="iqK-F3-pMg" firstAttribute="top" secondItem="WMR-Fv-Ut2" secondAttribute="bottom" constant="73" id="rlZ-TM-46V"/>
+                            <constraint firstItem="WMR-Fv-Ut2" firstAttribute="leading" secondItem="U2z-Pm-8Wt" secondAttribute="leading" constant="30" id="0DF-Ju-IZ9"/>
+                            <constraint firstItem="ZPE-ka-vAy" firstAttribute="top" secondItem="U2z-Pm-8Wt" secondAttribute="top" constant="16" id="4QR-GF-5fO"/>
+                            <constraint firstItem="WMR-Fv-Ut2" firstAttribute="top" secondItem="U2z-Pm-8Wt" secondAttribute="top" constant="150" id="YrX-XM-8v5"/>
+                            <constraint firstItem="iqK-F3-pMg" firstAttribute="leading" secondItem="U2z-Pm-8Wt" secondAttribute="leading" constant="30" id="Ysj-Qd-ZRo"/>
+                            <constraint firstItem="U2z-Pm-8Wt" firstAttribute="trailing" secondItem="iqK-F3-pMg" secondAttribute="trailing" constant="30" id="gAH-PY-FWx"/>
+                            <constraint firstItem="iqK-F3-pMg" firstAttribute="top" secondItem="WMR-Fv-Ut2" secondAttribute="bottom" constant="120" id="mgo-ds-cvE"/>
+                            <constraint firstItem="U2z-Pm-8Wt" firstAttribute="trailing" secondItem="ZPE-ka-vAy" secondAttribute="trailing" constant="20" id="vqa-cC-M44"/>
+                            <constraint firstItem="U2z-Pm-8Wt" firstAttribute="trailing" secondItem="WMR-Fv-Ut2" secondAttribute="trailing" constant="30" id="ycr-4U-bEo"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="closeButton" destination="ZPE-ka-vAy" id="C94-a9-jse"/>
                         <outlet property="nameLabel" destination="WMR-Fv-Ut2" id="OPw-D4-m2Z"/>
                         <outlet property="partLabel" destination="iqK-F3-pMg" id="rJ5-u3-aSB"/>
                     </connections>
