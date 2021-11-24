@@ -8,6 +8,7 @@
 import UIKit
 
 import RxCocoa
+import RxDataSources
 import RxSwift
 
 class ViewController: UIViewController {
@@ -61,9 +62,9 @@ class ViewController: UIViewController {
                     text.isEmpty || catchMePerson.name.lowercased().contains(text.lowercased())
                 })
             }).bind(to: mainTV
-                    .rx
-                    .items(cellIdentifier: MainTableViewCell.cellID,
-                                      cellType: MainTableViewCell.self)) {
+                        .rx
+                        .items(cellIdentifier: MainTableViewCell.cellID,
+                               cellType: MainTableViewCell.self)) {
                 row, element, cell in
                 cell.textLabel?.text = element.name
                 cell.detailTextLabel?.text = "\(element.part)"
@@ -95,3 +96,5 @@ class ViewController: UIViewController {
             }).disposed(by: disposeBag)
     }
 }
+
+
