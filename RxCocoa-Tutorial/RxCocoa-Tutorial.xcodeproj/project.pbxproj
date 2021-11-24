@@ -18,6 +18,7 @@
 		5BA6EF37274E5D40005FA6AA /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA6EF36274E5D40005FA6AA /* MainTableViewCell.swift */; };
 		5BA6EF3A274E661C005FA6AA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA6EF39274E661C005FA6AA /* DetailViewController.swift */; };
 		5BA6EF3D274EB80E005FA6AA /* CatchMeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA6EF3C274EB80E005FA6AA /* CatchMeViewModel.swift */; };
+		5BA6EF3F274EF139005FA6AA /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA6EF3E274EF139005FA6AA /* SectionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		5BA6EF36274E5D40005FA6AA /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		5BA6EF39274E661C005FA6AA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5BA6EF3C274EB80E005FA6AA /* CatchMeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchMeViewModel.swift; sourceTree = "<group>"; };
+		5BA6EF3E274EF139005FA6AA /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
 		69F95EDF80A1133D0072E264 /* Pods-RxCocoa-Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxCocoa-Tutorial.debug.xcconfig"; path = "Target Support Files/Pods-RxCocoa-Tutorial/Pods-RxCocoa-Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				5BA6EF2F274E5952005FA6AA /* CatchMe.swift */,
+				5BA6EF3E274EF139005FA6AA /* SectionModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				5B829E5427463C6300766144 /* ViewController.swift in Sources */,
 				5B829E5027463C6300766144 /* AppDelegate.swift in Sources */,
 				5B829E5227463C6300766144 /* SceneDelegate.swift in Sources */,
+				5BA6EF3F274EF139005FA6AA /* SectionModel.swift in Sources */,
 				5BA6EF3D274EB80E005FA6AA /* CatchMeViewModel.swift in Sources */,
 				5BA6EF3A274E661C005FA6AA /* DetailViewController.swift in Sources */,
 				5BA6EF30274E5952005FA6AA /* CatchMe.swift in Sources */,
