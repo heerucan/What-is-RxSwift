@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B0FA4DC273C474A00D7E05B /* TimeBasedOperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0FA4DB273C474A00D7E05B /* TimeBasedOperatorVC.swift */; };
+		5B8A19202758CBF600D0065B /* ErrorHandlingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A191F2758CBF600D0065B /* ErrorHandlingVC.swift */; };
 		5B8CAD4627180EF10016FEAD /* FilteringOperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CAD4527180EF10016FEAD /* FilteringOperatorVC.swift */; };
 		5B8EB23F272A6EDF00D64C46 /* TransformingOperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8EB23E272A6EDF00D64C46 /* TransformingOperatorVC.swift */; };
 		5BAE4F7127338E4600E2F69A /* CombiningOperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE4F7027338E4600E2F69A /* CombiningOperatorVC.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		5B0FA4DB273C474A00D7E05B /* TimeBasedOperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBasedOperatorVC.swift; sourceTree = "<group>"; };
+		5B8A191F2758CBF600D0065B /* ErrorHandlingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingVC.swift; sourceTree = "<group>"; };
 		5B8CAD4527180EF10016FEAD /* FilteringOperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteringOperatorVC.swift; sourceTree = "<group>"; };
 		5B8EB23E272A6EDF00D64C46 /* TransformingOperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingOperatorVC.swift; sourceTree = "<group>"; };
 		5BAE4F7027338E4600E2F69A /* CombiningOperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombiningOperatorVC.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				5B8EB23E272A6EDF00D64C46 /* TransformingOperatorVC.swift */,
 				5BAE4F7027338E4600E2F69A /* CombiningOperatorVC.swift */,
 				5B0FA4DB273C474A00D7E05B /* TimeBasedOperatorVC.swift */,
+				5B8A191F2758CBF600D0065B /* ErrorHandlingVC.swift */,
 				5BCC625926FC808600820AE7 /* Assets.xcassets */,
 				5BCC625E26FC808600820AE7 /* Info.plist */,
 			);
@@ -239,6 +242,7 @@
 				5BB9B93D2705C11800F5DDFE /* RelayVC.swift in Sources */,
 				5BB9B93B2705896600F5DDFE /* SubjectVC.swift in Sources */,
 				5B8CAD4627180EF10016FEAD /* FilteringOperatorVC.swift in Sources */,
+				5B8A19202758CBF600D0065B /* ErrorHandlingVC.swift in Sources */,
 				5BAE4F7127338E4600E2F69A /* CombiningOperatorVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
