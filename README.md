@@ -14,6 +14,7 @@
 |7주차|Time Based Operators|[🌼](https://huree-can-do-it.notion.site/7-Time-Based-Operators-3ef81542597d45c69431844710fd9f02)|
 |8주차|Beginning RxCocoa|[🌼](https://huree-can-do-it.notion.site/8-Beginning-RxCocoa-0ff1dee646c64a1eb2bc459a55d08b0b)|
 |9주차|Intermediate RxCocoa|[🌼](https://www.notion.so/huree-can-do-it/8-Beginning-RxCocoa-0ff1dee646c64a1eb2bc459a55d08b0b)|
+|10주차|Error Handling|[🌼](https://huree-can-do-it.notion.site/10-Error-Handling-5d323c682bbd45899cdb8bb21b709f8c)|
 
 
 <br>
